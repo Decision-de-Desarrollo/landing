@@ -4203,7 +4203,7 @@ fieldset:disabled .btn {
     padding-right: var(--bs-navbar-nav-link-padding-x);
     padding-left: var(--bs-navbar-nav-link-padding-x);
   }
-  
+
   .navbar-expand-sm .navbar-nav-scroll {
     overflow: visible;
   }
@@ -11483,7 +11483,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/fondo-header.png");
+  background-image: url("../assets/img/fondo-header.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11491,6 +11491,11 @@ header.masthead {
 }
 
 header.masthead .masthead-subheading {
+  background: whitesmoke;
+  color: black;
+  line-height: 1em !important;
+  padding: 0.5em;
+
   font-size: 1.5rem;
   font-style: normal;
   line-height: 1.5rem;
