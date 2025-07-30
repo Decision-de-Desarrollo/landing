@@ -11985,3 +11985,18 @@ section#contact form#contactForm :-ms-input-placeholder {
     "Segoe UI Symbol",
     "Noto Color Emoji";
 }
+
+.clients {
+  overflow-x: scroll;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+
+  display: flex;
+  gap: 2em;
+}
+
+.item {
+  display: inline-block !important; /* Allows items to sit side-by-side */
+  width: 150px;
+  height: 100px;
+}
